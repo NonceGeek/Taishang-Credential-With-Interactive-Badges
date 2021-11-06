@@ -60,7 +60,10 @@ def verify_credential():
     """
     weid = weidentityService(WEIDSERVICE_URL)
     
-    data = request.get_json()
+    for f in request.files:
+        resBody = request.files.get(f).read()
+
+    data = json.loads(resBody)
     
     cptId = data["cptId"]
     issuanceDate = data["issuanceDate"]

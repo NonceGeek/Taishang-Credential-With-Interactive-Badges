@@ -10,12 +10,18 @@ weid = weidentityService(URL)
 # # _weid = "did:weid:3:0xa8b750253750e275fa970d8660036e18e07c7311"
 _weid = "did:weid:3:0xbce3653371dd7d77aebd17a6832dca8eb8c8a212"
 
+
 # claim = {
 #     "addr": "zhang san",
 #     "token_id": "123",
 #     "response": "{wlkejgiwoe}"
 # }
 # credential = weid.create_credentialpojo(333333, _weid, "2022-04-18T21:12:33Z", claim, _weid)
+
+
+
+
+
 
 cptId = 333333
 issuanceDate = 1636175773
