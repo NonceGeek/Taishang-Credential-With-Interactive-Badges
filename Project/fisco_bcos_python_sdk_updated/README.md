@@ -2,6 +2,8 @@
 
 ![](./images/FISCO_BCOS_Logo.svg)
 
+![image](https://user-images.githubusercontent.com/42673461/140630497-e4db29fa-71b1-4434-9426-af6c995c8762.png)
+增加了con.py,flask_con.py,demo.py等业务代码，并在原有Python-sdk上进行修改，增加了通过私钥切换身份的方法。
 
 [![Build Status](https://travis-ci.org/FISCO-BCOS/python-sdk.svg?branch=master)](https://travis-ci.org/FISCO-BCOS/python-sdk)
 [![CodeFactor](https://www.codefactor.io/repository/github/fisco-bcos/python-sdk/badge)](https://www.codefactor.io/repository/github/fisco-bcos/python-sdk)
