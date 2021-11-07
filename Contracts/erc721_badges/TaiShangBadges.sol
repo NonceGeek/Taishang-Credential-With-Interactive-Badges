@@ -5,7 +5,7 @@ import "./ERC721.sol";
 import "./Counters.sol";
 import "./Ownable.sol";
 
-contract TaiShangToken is ERC721, Ownable {
+contract TaiShangBadges is ERC721, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
     
