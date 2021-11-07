@@ -7,5 +7,5 @@
 # tai_shang_credential_with_badges_backend
 为前端提供weidentity的处理api，包括证书获取、验证。
 
-# Weidentity-Python-SDK
+# weidentity-python-sdk
 定制weidentity-rest-service的Python SDK。
