@@ -16,8 +16,11 @@ from flask import (
 from taishang_badges_backend.extensions import db, csrf_protect
 from taishang_badges_backend.settings import WEIDSERVICE_URL
 from pyweidentity.weidentityService import weidentityService
+from flask_cors import CORS
 
 weid_bp = Blueprint("weid", __name__)
+
+CORS(weid_bp)
 
 class ValidationError(Exception):
     pass
@@ -79,7 +82,7 @@ def verify_credential():
     
     try:
         if verify_credential_data["respBody"] == True:
-            return jsonify(verify_credential_data)
+            return jsonify(data)
         return jsonify(
                 {
                     "error": "Verify credential Failed",
